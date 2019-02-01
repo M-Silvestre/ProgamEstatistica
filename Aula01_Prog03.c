@@ -1,19 +1,19 @@
 /*****************************************
 *        Autor: Matteus Silvestre        *
 *        Aula: 01                        *
-*        TÌtulo: Aspas e coment·rios     *
+*        T√≠tulo: Aspas e coment√°rios     *
 *        Data: 14/12/2018                *
 *****************************************/
 
 
-//Se comenta em uma ˙nica linha assim
+//Se comenta em uma √∫nica linha assim (Padr√£o C++)
 
-/*Coment·rio em v·rias linhas È feito
+/*Coment√°rio em v√°rias linhas √© feito
 desse jeito, abrindo e fechando o trecho*/
 
-/*O uso de coment·rios ajuda explicar o
-funcionamento de um cÛdigo e/ou documentar seu
-desenvolvimento, o que È ˙til se ele for
+/*O uso de coment√°rios ajuda explicar o
+funcionamento de um c√≥digo e/ou documentar seu
+desenvolvimento, o que √© √∫til se ele for
 revisado e/ou reaproveitado no futuro, ou
 compartilhado com outras pessoas*/
 
@@ -21,13 +21,13 @@ compartilhado com outras pessoas*/
 
 void main(void){
     printf("Hoje eh um dia \"LINDO\" com uma aula linda!!!\n");
-    /*Por padr„o, C exibe apenas caracteres ASCII, ou seja, 
-	nada de acentos ou Á fora dos coment·rios*/
+    /*Por padr√£o, C exibe apenas caracteres ASCII, ou seja, 
+	nada de acentos ou √ß fora dos coment√°rios*/
 	
     printf("\nO caracter \" eh colocado no printf() ");
-    /*O printf() abaixo foi usado para n„o deixar
-    o cÛdigo de uma linha muito longo */
+    /*O printf() abaixo foi usado para n√£o deixar
+    o c√≥digo de uma linha muito longo */
 
-    //Note que È possÌvel comentar dentro do argumento de uma funÁ„o...
-    printf("usando \\\".\n\n" /*...mas n„o È recomend·vel!*/);
+    //Note que √© poss√≠vel comentar dentro do argumento de uma fun√ß√£o...
+    printf("usando \\\".\n\n" /*...mas n√£o √© recomend√°vel!*/);
 }
