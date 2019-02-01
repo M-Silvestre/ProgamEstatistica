@@ -49,14 +49,14 @@ void main(void){
 	estar à esquerda e o valor, à direita. Também é possível atribuir
 	um valor vindo de outra variável, gerando uma cópia dele.*/ 
     a = 1; //"a" recebe o valor 1
-    
+	
     /*O símbolo % é usado em tags do printf para exibir valores de variáveis.
-	Algumas delas são:
-    %d : números inteiros (formato decimal)
-    %f : números reais
-    %c : caractere
-    %s : string
-    A variável a cujo valor será exibido deve ser especificada
+    Algumas delas são:
+	%d ou %i : números inteiros
+	%f : números com ponto flutuante (casas decimais)
+	%c : caractere
+	%s : string
+    A variável (ou variáveis) cujo valor será exibido deve ser especificada após as aspas
     */
     printf("O valor de \"a\" eh %d\n\n", a);
     
