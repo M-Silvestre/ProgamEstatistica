@@ -1,23 +1,23 @@
 /*****************************************
 *        Autor: Matteus Silvestre        *
 *        Aula: 01                        *
-*        TÌtulo: ComeÁando a programar   *
+*        T√≠tulo: Come√ßando a programar   *
 *        Data: 14/12/2018                *
 *****************************************/
 
 #include <stdio.h>
-/*Tecnicamente, a diretiva "include" do compilador n„o È cÛdigo C.
-Antes de rodar o cÛdigo, ela recebe uma biblioteca e suas
-funcoes a partir de um arquivo tipo .h (header ou cabeÁalho)
+/*Tecnicamente, a diretiva "include" do compilador n√£o √© c√≥digo C.
+Antes de rodar o c√≥digo, ela recebe uma biblioteca e suas
+fun√ß√µes a partir de um arquivo tipo .h (header ou cabe√ßalho)
 
-Por padr„o, C n„o inclui nenhuma biblioteca. Mas, dependendo do
-compilador, a stdio pode j· vir inclusa em um novo programa*/
+Por padr√£o, C n√£o inclui nenhuma biblioteca. Mas, dependendo do
+compilador, a stdio pode j√° vir inclusa em um novo programa*/
 
-//A funÁ„o main() È necess·ria para qualquer programa (mas n„o para todo cÛdigo C)
-//OBS: A Linguagem C È Case Sensitive, ou seja, diferencia mai˙sculas e min˙sculas
-void main(void) //Nossa funÁ„o main() n„o tem argumentos e retorna "void"
+//A fun√ß√£o main() √© necess√°ria para qualquer programa (mas n√£o para todo c√≥digo C)
+//OBS: A Linguagem C √© Case Sensitive, ou seja, diferencia mai√∫sculas e min√∫sculas
+void main(void) //Nossa fun√ß√£o main() n√£o tem argumentos e retorna "void"
 {
     printf("Hello Cruel World...\n");
-    /*A funÁ„o printf recebe uma "string"
+    /*A fun√ß√£o printf recebe uma "string"
     (cadeia de caracteres) como argumento e exibe-a*/
 }
