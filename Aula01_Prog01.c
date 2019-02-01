@@ -19,12 +19,12 @@ pode já vir inclusa em um novo programa.*/
 
 //OBS: A Linguagem C é Case Sensitive, ou seja, diferencia maiúsculas e minúsculas
 
+/*Nossa função main() tem "void" como argumentos (não tem argumentos)
+e retorna "void" (não retorna informação). Omitir essas especificações
+ pode causar erros, dependendo do compilador utilizado.*/
 void main(void) 
-    /*Nossa função main() tem "void" como argumentos (não tem argumentos)
-    e retorna "void" (não retorna informação). Omitir essas especificações
-    pode causar erros, dependendo do compilador utilizado.*/
 {
-    printf("Hello Cruel World...\n");
+    printf("Hello Cruel World...\n"); //Todo comando em C termina em ";"
     /*A função printf recebe uma "string" (cadeia de caracteres) como argumento
     e exibe-a. O nome vem de "print", imprimir (na tela), e o "f" de formatado.*/
 }
