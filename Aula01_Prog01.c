@@ -14,9 +14,15 @@ Por padrão, C não inclui nenhuma biblioteca. Mas, dependendo do
 compilador, a stdio ("Standard Input and Output", Entrada e Saída Padrão)
 pode já vir inclusa em um novo programa.*/
 
-//A função main() é necessária para qualquer programa (mas não para todo código C)
+/*A função main() é a função principal, necessária para qualquer programa em C
+(mas não para todo código C)*/
+
 //OBS: A Linguagem C é Case Sensitive, ou seja, diferencia maiúsculas e minúsculas
-void main(void) //Nossa função main() não tem argumentos e retorna "void"
+
+void main(void) 
+    /*Nossa função main() tem "void" como argumentos (não tem argumentos)
+    e retorna "void" (não retorna informação). Omitir essas especificações
+    pode causar erros, dependendo do compilador utilizado.*/
 {
     printf("Hello Cruel World...\n");
     /*A função printf recebe uma "string" (cadeia de caracteres) como argumento
