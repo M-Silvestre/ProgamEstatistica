@@ -1,25 +1,27 @@
 /*****************************************
 *        Autor: Matteus Silvestre        *
 *        Aula: 02                        *
-*        TÌtulo: Vari·veis (continuaÁ„o) *
+*        T√≠tulo: Vari√°veis (continua√ß√£o) *
 *        Data: 14/12/2018                *
 *****************************************/
 
 #include <stdio.h>
 
 void main(void){
-    /*… possÌvel atribuir valores a vari·veis no
-    momento em que s„o declaradas*/
+    /*√â poss√≠vel atribuir valores a vari√°veis no
+    momento em que s√£o declaradas*/
     int mortalidade = 10, natalidade = 1000 ;
     float taxa;
     
-    //Por padr„o, em C divis„o de entre inteiros retorna inteiro
+    /*Por padr√£o, em C divis√£o de entre inteiros retorna inteiro
+    (casas decimais s√£o descartadas). 
+    Ex: 9 dividido por 5 √© igual 1.8, mas em C a divis√£o retornar√° 1*/
     taxa = mortalidade/natalidade;
     printf("O valor da taxa eh %.2f\n\n", taxa);
     
-    /*Para forÁar o retorno  tipo float,
-    È preciso usar o "cast", que converte tipos*/
+    /*Para for√ßar o retorno  tipo float,
+    √© preciso usar o "cast", que converte tipos*/
     taxa = (float) mortalidade/natalidade;
     printf("O valor da taxa eh %.2f\n\n", taxa);
-    //O uso se %.2f em vez de %f limita o n˙mero de casas decimais para 2
+    //O uso se %.2f em vez de %f limita o n√∫mero de casas decimais para 2
 }
