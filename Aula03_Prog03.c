@@ -1,7 +1,7 @@
 /********************************************
 *        Autor: Matteus Silvestre           *
 *        Aula: 03                           *
-*        Título: Exercício 01               *
+*        Título: Exercício 01 (Real e Dólar)*
 *        Data: 08/02/2019                   *
 *********************************************/
 
