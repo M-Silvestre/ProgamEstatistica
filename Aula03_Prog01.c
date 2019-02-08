@@ -9,7 +9,7 @@
 
 void main(void){
     int a, b;
-    printf("\nDigite dois inteiro no formato (a b): ");
+    printf("\nDigite dois inteiros no formato (a b): ");
     /*A função scanf() permite que o programa receba informações
     durante sua execução e as armazene em variáveis*/
     
