@@ -56,9 +56,12 @@ void main(void){
 	%f : números com ponto flutuante (casas decimais)
 	%c : caractere
 	%s : string
-    A variável (ou variáveis) cujo valor será exibido deve ser especificada após as aspas
+    A variável (ou variáveis) cujo valor será exibido deve ser especificada após as aspas,
+    separada do texto entre aspas e outras variáveis por vírgula.
     */
     printf("O valor de \"a\" eh %d\n\n", a);
+	/*O valor da variável "a" está guardado em um único byte, conjunto de zeros e uns.
+	A tag %d será substituído pelo valor de "a" como número inteiro no formato decimal (base 10)*/
     
     b = a; //"b" recebe uma cópia do valor atual de a
     a = 2; //"a" tem seu valor modificado, mas "b" não muda!
