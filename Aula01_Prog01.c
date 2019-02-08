@@ -21,7 +21,10 @@ pode já vir inclusa em um novo programa.*/
 
 /*Nossa função main() tem "void" como argumentos (não tem argumentos)
 e retorna "void" (não retorna informação). Omitir essas especificações
- pode causar erros, dependendo do compilador utilizado.*/
+ pode causar erros, dependendo do compilador utilizado.
+ 
+ DIFERENÇA ENTRE COMPILADOR E INTERPRETADOR:
+ */
 void main(void) 
 {
     printf("Hello Cruel World...\n"); //Todo comando em C termina em ";"
