@@ -1,7 +1,7 @@
 /********************************************
 *        Autor: Matteus Silvestre           *
 *        Aula: 02                           *
-*        Título: Inteiros e variações       *
+*        TÃ­tulo: Inteiros e variaÃ§Ãµes       *
 *        Data: 01/02/2019                   *
 *********************************************/
 
@@ -9,12 +9,12 @@
 
 void main(void){
     /*Dependendo da arquitetura do computador (32 ou 64 bits),
-    um número inteiro pode ser representado por quantidades
-    diferentes de bytes. Além disso, o primeiro bit do número é usado para
+    um nÃºmero inteiro pode ser representado por quantidades
+    diferentes de bytes. AlÃ©m disso, o primeiro bit do nÃºmero Ã© usado para
     representar seu sinal (positivo ou negativo).
-    Isso influencia a representatividade dos dados, isto é; quantos números
-    podem ser representados por esse número de bytes. Números muito grandes
-    ou de muitas casas decimais podem exigir mais espaço para serem armazenados.
+    Isso influencia a representatividade dos dados, isto Ã©; quantos nÃºmeros
+    podem ser representados por esse nÃºmero de bytes. NÃºmeros muito grandes
+    ou de muitas casas decimais podem exigir mais espaÃ§o para serem armazenados.
     */
     int a, tamanho;
     tamanho = sizeof(a);
@@ -24,8 +24,10 @@ void main(void){
     independente da arquitetura do computador, usando quatro prefixos:
         short: Inteiro pequeno (2 bytes)
         long: inteiro grande (4 bytes)
-        signed: inteiro com sinal (padrão)
+        signed: inteiro com sinal (padrÃ£o)
         unsigned: inteiro positivo (maior representatividade)
+    O comando sizeof() tem como argumento uma variÃ¡vel ou tipo de
+    variÃ¡vel e retorna seu tamanho em nÃºmero inteiro de bytes.
     */
     short signed int b;
     printf("O valor de a (short int) eh %d\n", sizeof(b));
