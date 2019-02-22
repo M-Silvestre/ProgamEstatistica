@@ -8,8 +8,9 @@ Aula 02 (01/02/19): Revisão da Aula 01, Operações entre variáveis,
                     Inteiros e variações, Tamanho de variáveis
                     
 Aula 03 (08/02/19): Entrada de dados com scanf(), Exercícios
-
+                     
 Aula 04 (15/02/2018): Primeira Avaliação
-
-Aula 05 (22/02/2018): 
+                      
+Aula 05 (22/02/2018): Notação científica, scanf() de um caractere,
+                      Relação entre caracteres e números inteiros,
                       Números em base binária, octal e hexadecimal
