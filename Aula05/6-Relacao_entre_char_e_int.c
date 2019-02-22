@@ -1,9 +1,9 @@
-/****************************************
-*        Autor: Matteus Silvestre       *
-*        Aula: 05                       *
-*        Título: Caracteres e inteiros  *
-*        Data: 22/02/2019               *
-*****************************************/
+/*******************************************
+*        Autor: Matteus Silvestre          *
+*        Aula: 05                          *
+*        Título: Relação entre char e int  *
+*        Data: 22/02/2019                  *
+********************************************/
 
 /*Exercício 05: Escreva um programa que receba uma valor inteiro e represente
 			o caractere associado a esse número pela tabela ASCII
