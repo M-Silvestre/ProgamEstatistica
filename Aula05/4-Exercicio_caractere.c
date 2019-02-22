@@ -1,15 +1,15 @@
 /****************************************
 *        Autor: Matteus Silvestre       *
 *        Aula: 05                       *
-*        Título: Exercício (caractere)  *
+*        TÃ­tulo: ExercÃ­cio (caractere)  *
 *        Data: 22/02/2019               *
 *****************************************/
 
-/*Exercício 03: Escreva um programa que leia um caractere enviado 
+/*ExercÃ­cio 03: Escreva um programa que leia um caractere enviado 
 pelo teclado e o escreva na tela
 
-	Para um único caractere, a função getchar() pode ser usada
-	no lugar de scanf(). Ela é feita especificamente para receber
+	Para um Ãºnico caractere, a funÃ§Ã£o getchar() pode ser usada
+	no lugar de scanf(). Ela Ã© feita especificamente para receber
 	um caractere.
 */
 
