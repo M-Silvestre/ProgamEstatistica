@@ -1,12 +1,12 @@
 /****************************************
 *        Autor: Matteus Silvestre       *
 *        Aula: 05                       *
-*        TÌtulo: Caracteres e inteiros  *
+*        T√≠tulo: Caracteres e inteiros  *
 *        Data: 22/02/2019               *
 *****************************************/
 
-/*ExercÌcio: Escreva um programa que inicialize a vari·vel caractere
-ch nas formas ch = 'A', ch = 65
+/*Exerc√≠cio 05: Escreva um programa que receba uma valor inteiro e represente
+			o caractere associado a esse n√∫mero pela tabela ASCII
 */
 
 #include <stdio.h>
