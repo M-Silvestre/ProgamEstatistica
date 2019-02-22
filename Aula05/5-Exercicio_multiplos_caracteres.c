@@ -1,12 +1,12 @@
 /***********************************************
 *        Autor: Matteus Silvestre              *
 *        Aula: 05                              *
-*        TÌtulo: ExercÌcio ( multiplos caract) *
+*        T√≠tulo: Exerc√≠cio (multiplos caract)  *
 *        Data: 22/02/2019                      *
 ************************************************/
 
-/*ExercÌcio 04: Escreva um programa que leia dois caracterea pela
-funÁ„o scanf() e os escreva na tela entre aspas simples.*/
+/*Exerc√≠cio 04: Escreva um programa que leia dois caracteres pela
+fun√ß√£o scanf() e os escreva na tela entre aspas simples.*/
 
 #include <stdio.h>
 
@@ -17,13 +17,13 @@ void main(void){
 	//fflush(stdin);
 	printf("Digite um outro caractere: ");
 	scanf("%c", &char2); 
-	/*Na tabela ASCII, o Enter tambÈm È um caractere. AlÈm disso, o teclado
-	possui uma memÛria chamada buffer que guarda os caracteres que escrevemos.
-	Da maneira que o cÛdigo est· escrito, a vari·vel "b" receber· o Enter
+	/*Na tabela ASCII, o Enter tamb√©m √© um caractere. Al√©m disso, o teclado
+	possui uma mem√≥ria chamada buffer que guarda os caracteres que escrevemos.
+	Da maneira que o c√≥digo est√° escrito, a vari√°vel "b" receber√° o Enter
 	em vez do valor que ainda vamos informar, usando o scanf() ou o getchar().
 	
-	A funÁ„o fflush(stdin) "limpa" a entrada do teclada e serve para separar os
-	valores que ser„o etribuÌdos a char1 e char2.
+	A fun√ß√£o fflush(stdin) "limpa" a entrada do teclada e serve para separar os
+	valores que ser√£o etribu√≠dos a char1 e char2.
 	*/
 	printf("Os caracteres digitados foram '%c' e '%c'\n", char1, char2);
 	system("pause");
