@@ -6,7 +6,7 @@
 *********************************************/
 
 #include <stdio.h>
-#include <math.h> //Biblioteca de funções matemáticas
+#include <math.h> //Biblioteca de funções matemáticas: Raiz, Potência, Seno, etc.
 
 void main(void){
     int num1, num2, soma;
