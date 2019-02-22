@@ -1,7 +1,7 @@
 /***********************************************
 *        Autor: Matteus Silvestre              *
 *        Aula: 05                              *
-*        Título: Exercícios(notação científica)*
+*        Título: Notação científica            *
 *        Data: 22/02/2019                      *
 ************************************************/
 /*Exercício 02: Escrever um programa que converta toneladas para
