@@ -1,7 +1,7 @@
 /****************************************
 *        Autor: Matteus Silvestre       *
 *        Aula: 05                       *
-*        Título: Exercício (caractere)  *
+*        Título: Exercício (scanf char)  *
 *        Data: 22/02/2019               *
 *****************************************/
 
