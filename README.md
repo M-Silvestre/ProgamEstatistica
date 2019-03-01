@@ -14,3 +14,8 @@ Aula 04 (15/02/2018): Primeira Avaliação
 Aula 05 (22/02/2018): Notação científica, scanf() de um caractere,
                       Relação entre caracteres e números inteiros,
                       Números em base binária, octal e hexadecimal
+                      
+Aula 06 (01/03/2019): Diferença de tamanho entre char e int, 
+                      Valores Lógicos e operadores relacionais,
+                      Comando if() else, Uso de caracteres acentuados,
+                      Atribuir novo valor a uma variável usando o anterior
