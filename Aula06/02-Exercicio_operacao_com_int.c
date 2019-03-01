@@ -1,13 +1,13 @@
 /*************************************************
 *        Autor: Matteus Silvestre                *
 *        Aula: 06                                *
-*        Título: Exercício: Operaçoes com int *
+*        TÃ­tulo: ExercÃ­cio: OperaÃ§oes com int *
 *        Data: 01/03/2019                        *
 **************************************************/
 /*
-	Exercício: Escreva um programa em C que peça ao usuário
-	dois números inteiros e apresente o resultado da realização
-	das operações aritméticas tradicionais.
+	ExercÃ­cio: Escreva um programa em C que peÃ§a ao usuÃ¡rio
+	dois nÃºmeros inteiros e apresente o resultado da realizaÃ§Ã£o
+	das operaÃ§Ãµes aritmÃ©ticas tradicionais.
 */
 
 #include <stdio.h>
@@ -20,7 +20,7 @@ void main(void){
 	printf("Informe um segundo numero inteiro: ");
 	scanf("%d", &num2);
 	printf("\nSoma: num1 + num2 = %d", (num1 + num2));
-	printf("\nDiferença: num1 - num2 = %d", (num1 - num2));
+	printf("\nDiferenÃ§a: num1 - num2 = %d", (num1 - num2));
 	printf("\nProduto: num1 + num2 = %d", (num1 * num2));
 	printf("\nQuociente da divisao: num1 / num2 = %d", (num1 / num2));
 	printf("\nResto da divisao: num1 %% num2 = %d\n\n", (num1 % num2));
