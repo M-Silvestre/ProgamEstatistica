@@ -1,22 +1,22 @@
 /*****************************************
 *        Autor: Matteus Silvestre        *
 *        Aula: 06                        *
-*        TÌtulo: if() else encadeados    *
+*        T√≠tulo: if() else encadeados    *
 *        Data: 01/03/2019                *
 ******************************************/
 
-/*	Em algumas situaÁıes, um ˙nico teste de condiÁıes n„o
-	È suficiente. Sendo, È preciso testar mais de uma condiÁ„o.
+/*	Em algumas situa√ß√µes, um √∫nico teste de condi√ß√µes n√£o
+	√© suficiente. Sendo, √© preciso testar mais de uma condi√ß√£o.
 	Para isoo, C permite comandos if() else dentro de outros if() else.
 	
 	OBS: todo else deve estrar associado a um if()
 	
-	ExercÌcio: escreva um programa em C que solicite um sal·rio
-	ao usu·rio e mostre o imposto a pagar.
-		Se o sal·rio for negativo, informar ao us·rio e parar o programa
-		Se o sal·rio for maior que 1000, a taxa de imposte È 10%
-		Se o sal·rio for menor ou igual que 1000, a taxa de imposte È 5%
-			Adicional: Se o imposto È menor que R$ 1,00; exibir em centavos*/
+	Exerc√≠cio: escreva um programa em C que solicite um sal√°rio
+	ao usu√°rio e mostre o imposto a pagar.
+		Se o sal√°rio for negativo, informar ao us√°rio e parar o programa
+		Se o sal√°rio for maior que 1000, a taxa de imposte √© 10%
+		Se o sal√°rio for menor ou igual que 1000, a taxa de imposte √© 5%
+			Adicional: Se o imposto √© menor que R$ 1,00; exibir em centavos*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,7 +32,7 @@ void main(void){
 			printf("Imposto de 10%%: R$ %.2f\n\n", salario*0.10);
 		} else{
 			if((salario * 0.05) < 1.0){
-				salario= salario * 100;
+				salario = salario * 100;
 				printf("Imposto de 5%%: %.0f centavos\n\n", salario*0.05);
 			} else{
 				printf("Imposto de 5%%: R$ %.2f\n\n", salario*0.05);
