@@ -1,11 +1,11 @@
 /*****************************************
 *        Autor: Matteus Silvestre        *
 *        Aula: 06                        *
-*        TÌtulo: Verficando se X È nulo  *
+*        T√≠tulo: Verficando se X √© nulo  *
 *        Data: 01/03/2019                *
 ******************************************/
-/*	ExercÌcio 01: Implemente um programa que indique se
-	o inteiro lido È zero ou n„o*/
+/*	Exerc√≠cio : Implemente um programa que indique se
+	o inteiro lido √© zero ou n√£o*/
 
 #include <stdio.h>
 #include <stdlib.h>
