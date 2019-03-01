@@ -1,7 +1,7 @@
 /************************************************
 *        Autor: Matteus Silvestre               *
 *        Aula: 06                               *
-*        TÌtulo: V·rios if() e um ˙nico else    *
+*        T√≠tulo: V√°rios if() e um √∫nico else    *
 *        Data: 01/03/2019                       *
 *************************************************/
 
@@ -21,11 +21,11 @@ void main(void){
 			printf("B %c muito grande.\n\n", 130);
 	else 
 	printf("A tem um valor negativo.\n\n");		
-	/*Se vocÍ tentar usar os valores positivos para "a" e entre 1 e 9 para "b", 
-	ver· que o programa n„o analisa "a" corretamente. 
-	Isso ocorre porque, na presenÁa de m˙ltiplos if(), o else sempre est· associado
-	ao if mais prÛximo. Para associar o else do cÛdigo acima ao primeiro if(),
-	seria necess·rio o uso de chaves:
+	/*Se voc√™ tentar usar os valores positivos para "a" e entre 1 e 9 para "b", 
+	ver√° que o programa n√£o analisa "a" corretamente. 
+	Isso ocorre porque, na presen√ßa de m√∫ltiplos if(), o else sempre est√° associado
+	ao if mais pr√≥ximo. Para associar o else do c√≥digo acima ao primeiro if(),
+	seria necess√°rio o uso de chaves:
 	
 		if(a >=0){
 			if(b > 10)
@@ -33,8 +33,8 @@ void main(void){
 		} else 
 		printf("A tem um valor negativo.\n\n");
 	
-	Apesar da identaÁ„o ser uma boa pr·tica de programaÁ„o, ela n„o tem poder nenhum sobre
-	o funcionamento das funÁıes em C.
+	Apesar da identa√ß√£o ser uma boa pr√°tica de programa√ß√£o, ela n√£o tem poder nenhum sobre
+	o funcionamento das fun√ß√µes em C.
 	*/
 	system("pause");
 }
