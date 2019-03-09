@@ -19,3 +19,6 @@ Aula 06 (01/03/2019): Diferença de tamanho entre char e int,
                       Valores Lógicos e operadores relacionais,
                       Comando if() else, Uso de caracteres acentuados,
                       Atribuir novo valor a uma variável usando o anterior
+                      
+Aula 07 (08/03/2019): Operadores lógicos, if() else aninhados, Exercícios
+                      Operador condicional, Comando switch()
