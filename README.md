@@ -22,3 +22,7 @@ Aula 06 (01/03/2019): Diferença de tamanho entre char e int,
                       
 Aula 07 (08/03/2019): Operadores lógicos, if() else aninhados, Exercícios
                       Operador condicional, Comando switch()
+                      
+Aula 08 (15/03/2019): Estruturas de repetição, comandos "while()", "for()",
+                      e "do while()", instruções "break" e "continue",
+                      diretiva de pré-processamento "define"
