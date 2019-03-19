@@ -26,3 +26,5 @@ Aula 07 (08/03/2019): Operadores lógicos, if() else aninhados, Exercícios
 Aula 08 (15/03/2019): Estruturas de repetição, comandos "while()", "for()",
                       e "do while()", instruções "break" e "continue",
                       diretiva de pré-processamento "define"
+                      
+Aula 09 (22/02/2018): Segunda Avaliação  
