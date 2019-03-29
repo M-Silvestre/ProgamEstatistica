@@ -17,7 +17,7 @@
 #include <stdlib.h>
 
 void main(void){
-	printf("Operadores de incrementa%c%co (1)....\n\n", 135, 198)
+	printf("Operadores de incrementa%c%co (1)....\n\n", 135, 198);
 	int i=1;
 	while(i <= 10){
 		printf("%d\n", i);
