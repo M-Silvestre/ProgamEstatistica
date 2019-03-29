@@ -27,4 +27,7 @@ Aula 08 (15/03/2019): Estruturas de repetição, comandos "while()", "for()",
                       e "do while()", instruções "break" e "continue",
                       diretiva de pré-processamento "define"
                       
-Aula 09 (22/02/2018): Segunda Avaliação  
+Aula 09 (22/03/2019): Segunda Avaliação
+
+Aula 10 (29/03/2019): Operadores de incrementação, atribuição composta,
+                      Funções e Bibliotecas, Exercícios
