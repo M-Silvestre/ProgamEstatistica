@@ -1,16 +1,16 @@
 /************************************
 *        Autor: Matteus Silvestre   *
 *        Aula: 10                   *
-*        Título: Funções            *
+*        TÃ­tulo: FunÃ§Ãµes            *
 *        Data: 29/03/2019           *
 *************************************/
 /*	
-	Exercicio: Refaça o exercício anterior, mas o número
-	de asteriscos devera ser informado por você.	
+	Exercicio: RefaÃ§a o exercÃ­cio anterior, mas o nÃºmero
+	de asteriscos devera ser informado por vocÃª.	
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "04-1-Exercicio.h"
+#include "04-1-Exercicio_linhas.h"
 
 int main(void){
 	printf("Exerc%ccio fun%c%ces (2)\n\n", 161,135, 228);
