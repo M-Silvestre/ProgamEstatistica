@@ -1,17 +1,17 @@
 /************************************
 *        Autor: Matteus Silvestre   *
 *        Aula: 10                   *
-*        Título: Funções            *
+*        TÃ­tulo: FunÃ§Ãµes            *
 *        Data: 29/03/2019           *
 *************************************/
 /*	
-	Exercicio: Refaça o exercício anterior, mas agora tanto
-	o caractere quanto o número de caracteres deverão ser
-	informados por você.		
+	Exercicio: RefaÃ§a o exercÃ­cio anterior, mas agora tanto
+	o caractere quanto o nÃºmero de caracteres deverÃ£o ser
+	informados por vocÃª.		
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "04-1-Exercicio.h"
+#include "04-1-Exercicio_linhas.h"
 
 int main(void){
 	printf("Exerc%ccio fun%c%ces (3)\n\n", 161,135, 228);
