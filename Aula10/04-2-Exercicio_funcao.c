@@ -1,20 +1,20 @@
 /************************************
 *        Autor: Matteus Silvestre   *
 *        Aula: 10                   *
-*        Título: Funções            *
+*        TÃ­tulo: FunÃ§Ãµes            *
 *        Data: 29/03/2019           *
 *************************************/
 /*	
-	Exercicio: Escreva um código C que escreva em tela a sapida>
+	Exercicio: Escreva um cÃ³digo C que escreva em tela a saÃ­da:
 	
 	********************
-	Números entre 1 e 5
+	NÃºmeros entre 1 e 5
 	********************
-			1
-			2
-			3
-			4
-			5
+		1
+		2
+		3
+		4
+		5
 	********************		
 */
 #include <stdio.h>
