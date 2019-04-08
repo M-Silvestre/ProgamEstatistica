@@ -31,3 +31,5 @@ Aula 09 (22/03/2019): Segunda Avaliação
 
 Aula 10 (29/03/2019): Operadores de incrementação, atribuição composta,
                       Funções e Bibliotecas, Exercícios
+                      
+Aula 11 (05/04/2019): Seminário
