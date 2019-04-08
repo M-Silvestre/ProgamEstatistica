@@ -1,18 +1,18 @@
 /*******************************************************
 *        Autor: Matteus Silvestre                      *
-*        Aula: 9                                       *
-*        TÌtulo: ExercÌcio: Vari‚ncia e Desvio padr„o  *
+*        Aula: 8                                       *
+*        T√≠tulo: Exerc√≠cio: Vari√¢ncia e Desvio padr√£o  *
 *        Data: 29/03/2019                              *
 *******************************************************/
 /*	
-	ExercÌcio: Construa um programa em C que calcule a vari‚ncia
-	amostral de uma sequÍncia de observaÁıes passadas pelo usu·rio.
+	Exerc√≠cio: Construa um programa em C que calcule a vari√¢ncia
+	amostral de uma sequ√™ncia de observa√ß√µes passadas pelo usu√°rio.
 	
-	ExercÌcio: Calcule um programa em C que calcule o desvio padr„o
-	amostral de uma sequÍncia de observaÁıes passadas pelo usu·rio.
+	Exerc√≠cio: Calcule um programa em C que calcule o desvio padr√£o
+	amostral de uma sequ√™ncia de observa√ß√µes passadas pelo usu√°rio.
 	
-	(Dica: utilize a funÁ„o sqrt() da biblioteca math.h, isto È, faÁa
-	#include <math.h> para ter acesso ‡ funÁ„o raiz quadrada).
+	(Dica: utilize a fun√ß√£o sqrt() da biblioteca math.h, isto √©, fa√ßa
+	#include <math.h> para ter acesso √† fun√ß√£o raiz quadrada).
 
 */
 
@@ -26,19 +26,19 @@ void main(void){
 	printf("Informe o n%cmero de observa%c%ces: ", 163, 135, 228);
 	scanf("%d", &n);
 	
-	/*A vari‚ncia È dada por Soma((Xi - Xm)^2)/n, onde:
-	    Soma() : somatÛrio de i = 1 atÈ i = n
-		Xm : mÈdia observada da amostra
-		Xi : elemento de Ìndice i da amostra
-		n : n˙mero de elementos da amostra
+	/*A vari√¢ncia √© dada por Soma((Xi - Xm)^2)/n, onde:
+	    Soma() : somat√≥rio de i = 1 at√© i = n
+		Xm : m√©dia observada da amostra
+		Xi : elemento de √≠ndice i da amostra
+		n : n√∫mero de elementos da amostra
 		e i varia de 1 a n.
 		
-	Se efetuarmos o quadrado da variancia, teremos ela ser· igual a:
+	Se efetuarmos o quadrado da variancia, teremos ela ser√° igual a:
 		Soma((Xi-Xm)*(Xi-Xm)) / n
 		= Soma(Xi^2 -2*Xi*Xm + Xm^2)/n
 		= (Soma(Xi^2) + Soma(- 2*Xm*Xi) + Soma(Xm^2)) / n
 		= (Soma(Xi^2) - 2*Xm*Soma(Xi) + n*Xm^2)) / n
-	Com os termos separados assim, podemos efetuar o c·lculo da vari‚ncia usando
+	Com os termos separados assim, podemos efetuar o c√°lculo da vari√¢ncia usando
 	nossos conhecimentos atuais.	
 		*/
 	soma1 = 0;
