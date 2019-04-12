@@ -1,16 +1,16 @@
 /**************************************
 *        Autor: Matteus Silvestre     *
 *        Aula: 10                     *
-*        Título: Exercício de Máximo  *
+*        TÃ­tulo: ExercÃ­cio de MÃ¡ximo  *
 *        Data: 29/03/2019             *
 ***************************************/
 /*	
-	Exercício: Escreva em programa em C que recebe dois
-	números reais e determine o maior entre eles.
+	ExercÃ­cio: Escreva em programa em C que recebe dois
+	nÃºmeros reais e determine o maior entre eles.
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "06-1-Biblioteca_maximos.h"
+#include "05-1-Biblioteca_maximos.h"
 
 int main(void){
 	printf("Exerc%ccio m%cximos (2)\n\n", 161, 160);
