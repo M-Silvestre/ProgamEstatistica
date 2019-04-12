@@ -1,19 +1,21 @@
 /************************************
 *        Autor: Matteus Silvestre   *
 *        Aula: 10                   *
-*        Título: Funções            *
+*        TÃ­tulo: FunÃ§Ãµes            *
 *        Data: 29/03/2019           *
 *************************************/
 /*	
-	Biblioteca com as funções para determinar o máximo
-	entre números reais.
+	Biblioteca com as funÃ§Ãµes para determinar o mÃ¡ximo
+	entre nÃºmeros reais.
 */
 
 
-float max2(float, float);
-float max3(float, float, float);
+/*	A funÃ§Ã£o max2 retorna o maior entre 2 nÃºmeros reais
 
-//A função max2 retorna o maior entre 2 números reais
+	Note que Ã© possÃ­vel uma funÃ§Ã£o possuir mais de um return,
+	desde que apenas um deles seja executado. Por exemplo,
+	atravÃ©s de comandos if() else ou switch()
+*/
 float max2(float n1, float n2){
 	if(n1 > n2)
 		return n1;
@@ -21,7 +23,7 @@ float max2(float n1, float n2){
 		return n2;
 };
 
-//A função max3 retorna o maior entre 3 números reais
+//A funÃ§Ã£o max3 retorna o maior entre 3 nÃºmeros reais
 float max3(float n1, float n2, float n3){
 	if(n1 > n2 && n1 > n3){
 			return n1;
