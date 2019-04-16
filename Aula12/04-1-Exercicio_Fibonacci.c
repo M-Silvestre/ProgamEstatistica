@@ -1,19 +1,20 @@
 /****************************************************
 *        Autor: Matteus Silvestre                   *
 *        Aula: 10                                    *
-*        Título: Exercício: Sequência de Fibonacci  *
+*        TÃ­tulo: ExercÃ­cio: SequÃªncia de Fibonacci  *
 *        Data: 29/03/2019                           *
 *****************************************************/
 /*	
-	Exercício: Construa um programa em C que calcule o termo de
-	determinada posição na sequência de Fibonacci.
+	ExercÃ­cio: Construa um programa em C que calcule o termo de
+	determinada posiÃ§Ã£o na sequÃªncia de Fibonacci.
 	
-	A sequência de Fibonacci é uma sequência de interios em que os
-	dois primeiros números são 1, e cada termo a partir do terceiro
-	é igual à soma dos dois imediatamente anteriores.
+	A sequÃªncia de Fibonacci Ã© uma sequÃªncia de inteiros em que os
+	dois primeiros nÃºmeros sÃ£o 0 e 1 (ou 1 e 1), e cada termo a
+	partir do terceiro Ã© igual Ã  soma dos dois imediatamente anteriores.
 	
+	0
 	1
-	1
+	1 = 0 + 1;
 	2 = 1 + 1;
 	3 = 1 + 2;
 	5 = 2 + 3;
@@ -23,7 +24,7 @@
 */
 
 #include <stdio.h>
-#include "04-2-Biblioteca_Fibonacci.h" //Funções fib() e fib_r() estão aqui
+#include "04-2-Biblioteca_Fibonacci.h" //FunÃ§Ãµes fib() e fib_r() estÃ£o aqui
 
 void main(void){
 	printf("Sequ%cncia de Fibonacci\n\n", 136);
