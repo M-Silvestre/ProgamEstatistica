@@ -1,17 +1,17 @@
 /**************************************
 *        Autor: Matteus Silvestre     *
 *        Aula: 10                     *
-*        TÌtulo: FunÁ„o Recursiva     *
+*        T√≠tulo: Fun√ß√µes Recursivas   *
 *        Data: 29/03/2019             *
 ***************************************/
 /*	
-	FunÁ„o recursiva È aquelas que chama a si mesma em sua
-	execuÁ„o. Isso È desej·vel em alguns casos por deixar
-	o cÛdigo mais compacto, mas elas possuem maior custo
-	computacional, pois ela È executada v·rias vezes.
+	Fun√ß√£o recursiva √© aquelas que chama a si mesma em sua
+	execu√ß√£o. Isso √© desej√°vel em alguns casos por deixar
+	o c√≥digo mais compacto, mas ela possue maior custo
+	computacional, pois √© executada v√°rias vezes.
 	
-	ExercÌcio: Escreva em programa em C que recebe um
-	n˙mero interio positivo e exiba seu fatorial.
+	Exerc√≠cio: Escreva em programa em C que recebe um
+	n√∫mero inteiro positivo e exiba seu fatorial.
 */
 #include <stdio.h>
 
@@ -30,7 +30,7 @@ int main(void){
 		printf("\nO fatorial est%c definido apenas para inteiros n%co negativos.", 160, 198);
 };
 
-//Fatorial de forma n„o recursiva
+//Fatorial de forma n√£o recursiva
 int fat(int n){
 	int i;	
 	long unsigned int res = 1;
@@ -46,11 +46,11 @@ int fat_r(int n){
 	else return (n * fat_r(n - 1));
 }
 
-/*Digamos que comeÁamos com n = 3
+/*Digamos que come√ßamos com n = 3
 		fat_r(3) retorna 3*fat_r(2),
 		fat_r(2) retorna 2*fat_r(1),
 		fat_r(1) retorna 1*fat_r(0),
-		fat_r(0) retorna 1 (cai no if(n < 1)), e a recurs„o para.
+		fat_r(0) retorna 1 (cai no if(n < 1)), e a recurs√£o para.
 		
 		Portanto, fat(3) retorna 3*2*1*1 = 6, e 6 = 3!
 
