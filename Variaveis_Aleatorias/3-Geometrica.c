@@ -6,8 +6,7 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h>
-#include "1-Biblioteca.h"
+#include "distrib_probs.h"
 
 void main(void){
 	printf("Probabilidade de uma v. a. Geom%ctrica\n\n", 130);
@@ -19,5 +18,4 @@ void main(void){
 	printf("Informe n%cmero de tentativas at%c o primeiro sucesso: ", 163, 130);
 	scanf("%d", &x);
 	printf("\nA probabilidade de sucesso na %d%c tentativa %c %.2f%%\n\n", x, 166, 130, geo(p, x));
-	system("pause");
 }
