@@ -1,5 +1,7 @@
 #include <math.h> //Precisaremos da função pow(), para potências
 
+#define E 2.718281 //Precisamos de "e" para a geométrica
+
 /*OBS: É possível criar uma função que usa outra, desde que a a função de dentro
 	seja declarada antes da função maior. Veja:
 */
