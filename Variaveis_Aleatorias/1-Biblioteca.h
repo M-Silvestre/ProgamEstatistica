@@ -29,9 +29,22 @@ float bin(int n, float p, int x){
 	return prob; //OBS: Retorna como percentual: 0 <= prob <= 100
 };
 
-
+/*V.A. Geométrica
+X~Geo(p)
+P(X = x) = p * ((1 - p) ^ (x - 1))
+*/
 float geo(float p, int x){
 	float px;
 	px = 100* pow(1 - p, x - 1) * p;
 	return px;
+};
+
+/*V.A. de Poisson
+X~Poisson(lambda)
+P(X=x) = (e ^ (-lambda)) * (lambda ^ x) / (x!)
+*/
+float poisson(int x, double par){
+	double p_poi;
+	p_poi = (double)(pow(E, -par) * pow(par, x)) / fat(x);
+	return 100*p_poi;
 }
