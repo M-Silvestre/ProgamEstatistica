@@ -35,3 +35,5 @@ Aula 10 (29/03/2019): Operadores de incrementação, atribuição composta,
 Aula 11 (05/04/2019): Seminário com Marcelo Bourguignon (UFRN)
 
 Aula 12 (12/04/2019): Variáveis Globais & Locais, Funções recursivas
+
+Aula 13 (26/04/2019): Terceira Avaliação
