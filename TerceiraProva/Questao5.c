@@ -32,7 +32,7 @@ void main(void){
 	printf("C%clculo aproximado da exponencial\n\n", 160);
 	int n;
 	double x;
-	printf("Informe um n%cmero de termos da soma: ", 163);
+	printf("Informe o n%cmero de termos da soma: ", 163);
 	scanf("%d", &n);
 	printf("Informe o expoente x: ");
 	scanf("%lf", &x);
