@@ -52,3 +52,10 @@ double aprox_ex(int n, double x){
 	}
 	return soma;
 };
+
+//Recursivamente
+double aprox_ex_r(int n, double x){
+	if(n == 0)
+		return 1;
+	return ( pow(x, n) / fat(n) ) + aprox_ex(n - 1, x);
+}
