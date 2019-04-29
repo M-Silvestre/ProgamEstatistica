@@ -5,7 +5,8 @@
 *        Data: 26/04/2019                            *
 ******************************************************/
 
-/*	Questão 2: Crie uma função que que retorne o valor de pi
+/*	
+	Questão 2: Crie uma função que que retorne o valor de pi
 	pela aproximação:
 		pi = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 ...
 	Dica: use o número de termos da soma como argumento
@@ -59,3 +60,7 @@ double pi_r(n){
 	else
 		return pi(n - 1) + 4.0/(2*n - 1.0);
 }
+
+/*	OBS:A soma não fornece valores próximos de pi com valor de n pequeno.
+	Tente testar valores de n como 20, 30 ou mais vez de 1~10
+*/
