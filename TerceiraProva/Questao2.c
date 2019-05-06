@@ -61,6 +61,6 @@ double pi_r(n){
 		return pi(n - 1) + 4.0/(2*n - 1.0);
 }
 
-/*	OBS:A soma não fornece valores próximos de pi com valor de n pequeno.
-	Tente testar valores de n como 20, 30 ou mais vez de 1~10
+/*	OBS:A soma não fornece uma aproximação boa de pi com valores de n pequeno.
+	Tente testar valores de n como 20, 30 ou 40 em vez de 1~10
 */
