@@ -60,8 +60,8 @@ void main(void){
     separada do texto entre aspas e outras variáveis por vírgula.
     */
     printf("O valor de \"a\" eh %d\n\n", a);
-	/*O valor da variável "a" está guardado em um único byte, conjunto de zeros e uns.
-	A tag %d será substituído pelo valor de "a" como número inteiro no formato decimal (base 10)*/
+	/*O valor da variável "a" está guardado em um conjunto de bytes, que são séries de zeros e uns.
+	A tag %d será substituído pelo valor armazenado em "a" como número inteiro no formato decimal (base 10)*/
     
     b = a; //"b" recebe uma cópia do valor atual de a
     a = 2; //"a" tem seu valor modificado, mas "b" não muda!
