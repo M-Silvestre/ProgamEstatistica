@@ -17,13 +17,13 @@ void main(void){
     printf("\nDigite um outro inteiro: ");
     scanf("%d", &b);
 	
-    /*É importante que os dados sejam informados no mesmo formato que o scanf() os lerá,
+    /*É importante que os dados sejam informados na mesma maneira que o scanf() os lerá,
     Ex: inteiro, float ou char; presença de espaços ou vírgulas, parênteses ou hífen, etc.
     Caso contrário, valores incorretos podem ser recebidos (como um espaço ou um Enter 
     no lugar de um número) e levar a resultados incoerentes.
     
-    O símbolo "&" siginifica endereço de memória, e no scanf() significa onde o
+    O operador '&' significa endereço de memória, e no scanf() indica onde o
     valor recebido será armazenado. Neste caso, usar apenas o nome da variável 
-    não é sufuciente! */
+    não é suficiente! */
     printf("\nO conteudo de \"a\" eh %d, o valor de \"b\" eh %d\n", a, b);
 }
