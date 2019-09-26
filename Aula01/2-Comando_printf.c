@@ -19,10 +19,10 @@ void main(void){
     printf("Cruel");
     /*...equivalem a printf("Hello Mundo Cruel") pois, por padrão
     a função printf() não muda de linha. Uma nova linha é
-    representada pelo símbolo \n */
+    representada pelo caractere \n */
     printf("\nHello\nMundo\nCruel\n");
     
-    /*A contrabarra é um caractere reservdado para tags do printf.
+    /*A contrabarra é um caractere reservado para tags do printf.
     Para exibir a própria contrabarra, basta usar duas contrabarras!*/
     printf("\nContrabarra: \\");
     //Voltando ao que tentamos no comando inicial
