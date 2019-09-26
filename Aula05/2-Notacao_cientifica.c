@@ -8,7 +8,7 @@
  quilos e gramas escrevendo o resultado em notação tradicional
  e científica.
  
- 	Números reais representados em notação cientpifica seguem a forma
+ 	Números reais representados em notação científica seguem a forma
 	"aaaEbbb", onde o "E" significa 10, "aaa" é o número real entre 1 e 10 
 	e "bbb" o exponte. Por exemplo:
 	13000 viraria 1.3E04 (1.3 vezes 10 elevado a 4)
