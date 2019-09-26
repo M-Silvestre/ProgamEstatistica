@@ -1,9 +1,9 @@
-/*******************************************
-*        Autor: Matteus Silvestre          *
-*        Aula: 05                          *
-*        Título: Caract e inteiros (Obs)  *
-*        Data: 22/02/2019                  *
-********************************************/
+/**********************************************
+*        Autor: Matteus Silvestre             *
+*        Aula: 05                             *
+*        Título: Caracteres e inteiros (Obs)  *
+*        Data: 22/02/2019                     *
+***********************************************/
 
 /*Observação: Apesar de ser possível converter int em char e vice-versa,
 ler um int usando %c ou um char usando %d pode levar a comportamentos imprevisíveis.*/
